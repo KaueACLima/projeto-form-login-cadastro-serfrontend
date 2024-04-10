@@ -1,0 +1,26 @@
+body{
+    background-color: #f7f7f7;
+    font-family: Verdana, sans-serif;
+    align-items: center;
+    margin-top: 8.5rem;
+}
+
+main{
+    max-width: 900px;
+    border: 2px solid #FF0000;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+main li {
+    font-size: 21px;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+
+li:nth-child(3n - 2){
+    background-color: #FFFF00;
+    padding: .2rem;
+}
